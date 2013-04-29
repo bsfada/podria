@@ -384,5 +384,82 @@ background: linear-gradient(#24d324, #00aa00);
 .sorteo_right  .jcarousel-skin-tango .jcarousel-clip-horizontal{ width:382px; height:50px;}
 .sorteo_right   .jcarousel-skin-tango .jcarousel-item { height:50px; width:72px;margin-right:4px;} 
 
+.blue_box{   margin-left: 3px; float:left; width:837px;  position:relative; 
+background:#f1f1f1;
+/* padding:12px 9px;  */
+border-top:12px solid #232b34;
+border-bottom:0px solid #232b34;
+border-left:9px solid #232b34;
+border-right:8px solid #232b34;
+
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+
+-moz-box-shadow:inset 0px 0px 20px 5px rgba(0, 0, 0, 0.18);
+-webkit-box-shadow:inset 0px 0px 20px 5px rgba(0, 0, 0, 0.18);
+box-shadow:inset 0px 0px 20px 5px rgba(0, 0, 0, 0.18);
+behavior: url(pie/PIE.php);
+}
+.blue_box table { width:837px; }
+.blue_box table td{ width:279px; }
+.blue_box table td.header{ position:relative; border:0px; height:53px; vertical-align:middle; background:none; text-align:center; color:#ffffff; font-size:34px;  font-family:Open Sans, Arial,Helvetica,sans-serif; 
+-moz-box-shadow:inset 0px 0px 20px 5px rgba(0, 0, 0, 0.18);
+-webkit-box-shadow:inset 0px 0px 20px 5px rgba(0, 0, 0, 0.18);
+box-shadow:inset 0px 0px 20px 5px rgba(0, 0, 0, 0.18);
+behavior: url(pie/PIE.php);
+}
+.blue_box table td.header.green{ background:#00c000; }
+.blue_box table td.header.orange{ background:#dda92d; }
+.blue_box table td.header.red{ background:#f00000; }
+
+.blue_box table td { vertical-align:top; border-left:1px solid #d8d9d9; color:#666666; }
+.blue_box table td.first { border-left:0;}
+.blue_box table td div { padding:8px 18px 8px 31px; position:relative; }
+.blue_box table td div.odd { background:#fbfbfb;}
+.blue_box table td.green div.odd {
+/* -moz-box-shadow:inset 10px 0px 10px 1px rgba(0, 0, 0, 0.03);
+-webkit-box-shadow:inset 10px 0px 10px 1px rgba(0, 0, 0, 0.03);
+box-shadow:inset 10px 0px 10px 1px rgba(0, 0, 0, 0.03);
+behavior: url(pie/PIE.php); */
+}
+
+.blue_box table td div span.arrow{ width:17px; height:18px; 
+background: url(../img/footer_logo.png) no-repeat;
+position:absolute; float:left; left:8px; top:8px;
+}
+.blue_box table td.green div span.arrow{ background-position: -150px -334px;}
+.blue_box table td.orange div span.arrow{ background-position: -150px -352px;}
+.blue_box table td.red div span.arrow{ background-position: -150px -370px;}
+
+.blue_box table td.footer{ font-weight:600; background:#232b34; border-color:#3a424a; padding:13px 0 23px 0; font-size:20px; color:#fff;
+text-align: center; 
+}
+
+.blue_box table td.footer a { display:inline-block; font-size:24px; text-decoration:none; color:#fff;
+
+width:212px;
+height:40px;
+
+padding:5px 0 0 0;
+
+
+margin:10px 0 0 0;
+font-weight:normal;
+background: url(../img/paso1_but.jpg) no-repeat;
+
+}
+
+.blue_box table td.footer.orange a { 
+background-position: 0px -45px;
+} 
+
+.blue_box table td.footer.red a { 
+background-position: 0px -90px;
+} 
+
+
+
+
 
 
